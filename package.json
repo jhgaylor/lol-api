@@ -1,0 +1,26 @@
+{
+  "version": "0.1.5",
+  "name": "lol-api",
+  "description": "node.js wrapper for the League of Legends API",
+  "author": "Stuart Macgregor <stuart.g.macgregor@gmail.com>",
+  "main": "index.js",
+  "dependencies": {
+    "request": "2.29.0" 
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": [
+  "LoL",
+  "League of Legends",
+  "lol-api",
+  "api",
+  "League",
+  "of",
+  "Legends"
+  ],
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/stumac/lol-api.git"
+      }
+}
