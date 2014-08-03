@@ -24,7 +24,7 @@ exports.game = (summoner_id, region, callback)->
 
 exports.statsSummary = (summoner_id, region, callback)->
   url = "/api/lol/" + region + "/v1.3/stats/by-summoner/" + summoner_id + "/summary";
-  query url, 'season=SEASON3', callback
+  query url, 'season=SEASON4', callback
 
 exports.statsRanked = (summoner_id, region, callback)->
   url = "/api/lol/" + region + "/v1.3/stats/by-summoner/" + summoner_id + "/ranked";
